@@ -1,4 +1,13 @@
-var double = require('./lib');
-//var _ = require('lodash');
+import { cube } from './math';
 
-console.log(double.double(5));
+function component(){
+    var el = document.createElement('pre');
+    el.innerHTML = [
+        'Hello Webpack',
+        '5 is cubed = ' + cube(5)
+    ].join('\n\n');
+
+    return el;
+}
+
+document.body.appendChild(component());

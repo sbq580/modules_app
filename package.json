@@ -8,6 +8,7 @@
     "browserify": "browserify ./src/entry.js -o ./src/bundle.js",
     "webpack": "webpack ./src/entry.js"
   },
+  "sideEffects": false,
   "keywords": [],
   "author": "",
   "license": "ISC",
