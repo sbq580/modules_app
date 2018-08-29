@@ -1,4 +1,4 @@
 var double = require('./lib');
-var _ = require('lodash');
+//var _ = require('lodash');
 
-console.log(double.double(9));
+console.log(double.double(5));
