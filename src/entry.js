@@ -1,4 +1,5 @@
 import { cube } from './math';
+//import { double, addFive } from './es6-lib';
 
 function component(){
     var el = document.createElement('pre');
@@ -11,3 +12,6 @@ function component(){
 }
 
 document.body.appendChild(component());
+
+/* console.log("The double: ", double(45));
+console.log("Five added: ", addFive(100)); */
